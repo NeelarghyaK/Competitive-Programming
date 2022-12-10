@@ -1,5 +1,4 @@
 #Traversal using DFS
-###
 
 ```cpp
 
@@ -19,7 +18,41 @@ void traversal(Tree *tree){
 }
 
 ```
-#DFS using adjacency list 
+#DFS using adjacency list for tree
+
+```cpp
+void dfs(int u=1,int p=-1){
+//use for top down
+  for (int child:adj[u]){
+     if(child==p) continue;
+     dfs(child,u);
+  }
+  //use for bottom up
+}
+
+```
+#DFS using adjacency list for graph
+```cpp
+ vector<vector<int>> adj;
+ int n;
+ vector<bool> visited;
+ void dfs(int v){
+   visited[v]=true;
+   for(int u:adj[v]){
+     if(!visted[u]) 
+       dfs(u);
+   }
+}
+
+void main(){
+  for(int i=0;i<n;i++){ // n= no of nodes
+    if(!visited[i])
+      dfs(i);
+  }
+} 
+  
+```
+
 
 
 
