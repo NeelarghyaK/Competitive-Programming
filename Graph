@@ -1,1 +1,27 @@
+#Traversal using DFS
+###
 
+```cpp
+
+struct Tree{
+  string value;
+  Tree *left;
+  Tree *right;
+}
+
+void traversal(Tree *tree){
+  if(tree==NULL) return;
+  //use tree-> for Pre-order traversal (current-left-right)
+  traversal(tree->left);
+  //use tree-> for Post-order traversal (left-current-right)
+  traversal(tree->right);
+  //use tree-> for In-order traversal (left-right-current)
+}
+
+```
+#DFS using adjacency list 
+
+
+
+
+  
