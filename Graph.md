@@ -39,7 +39,7 @@ void dfs(int u=1,int p=-1){
  void dfs(int v){
    visited[v]=true;
    for(int u:adj[v]){
-     if(!visted[u]) 
+     if(!visited[u]) 
        dfs(u);
    }
 }
@@ -52,6 +52,13 @@ void main(){
 } 
   
 ```
+#Number of connected components
+
+https://cses.fi/paste/ba4286c414fbddb14df5d8/
+
+#Topological sorting
+
+
 
 
 
