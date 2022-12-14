@@ -1,4 +1,4 @@
-#Traversal using DFS
+# Traversal using DFS
 
 ```cpp
 
@@ -18,7 +18,7 @@ void traversal(Tree *tree){
 }
 
 ```
-#DFS using adjacency list for tree
+# DFS using adjacency list for tree
 
 ```cpp
 void dfs(int u=1,int p=-1){
@@ -31,7 +31,7 @@ void dfs(int u=1,int p=-1){
 }
 
 ```
-#DFS using adjacency list for graph
+# DFS using adjacency list for graph
 ```cpp
  vector<vector<int>> adj;
  int n;
@@ -52,11 +52,13 @@ void main(){
 } 
   
 ```
-#Number of connected components
+# Number of connected components
 
 https://cses.fi/paste/ba4286c414fbddb14df5d8/
 
-#Topological sorting
+# Checking cyclicity of graph
+If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
+
 
 
 
