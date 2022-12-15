@@ -58,6 +58,11 @@ https://cses.fi/paste/ba4286c414fbddb14df5d8/
 
 # Checking cyclicity of graph
 If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
+CSES:Round trip
+https://ideone.com/eH95Cc
+
+
+
 
 
 
