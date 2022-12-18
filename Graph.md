@@ -60,6 +60,36 @@ https://cses.fi/paste/ba4286c414fbddb14df5d8/
 If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
 CSES:Round trip
 https://ideone.com/eH95Cc
+# BFS on a graph
+```cpp
+
+
+int n; // number of nodes
+int root; // root vertex
+
+queue<int> q;
+vector<bool> visited(n);
+vector<int> level(n), parent(n);
+
+q.push(root);
+visited[root] = true;
+parent[root] = -1;
+while (!q.empty()) {
+    int v = q.front();
+    q.pop();
+    for (int u : adj[v]) {
+        if (!visited[u]) {
+            visited[u] = true;
+            q.push(u);
+            level[u] = level[v] + 1;
+            parent[u] = v;
+        }
+    }
+}
+
+
+```
+
 
 
 
