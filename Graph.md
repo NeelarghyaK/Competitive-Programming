@@ -89,6 +89,24 @@ while (!q.empty()) {
 
 
 ```
+# Shortest Path using bfs
+
+```cpp
+if (!visited[u]) {
+    cout << "No path!";
+} else {
+    vector<int> path;
+    for (int v = u; v != -1; v = parent[v])
+        path.push_back(v);
+    reverse(path.begin(), path.end());
+    cout << "Path: ";
+    for (int v : path)
+        cout << v << " ";
+}
+
+```
+
+
 
 
 
