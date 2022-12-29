@@ -52,6 +52,8 @@ void main(){
 } 
   
 ```
+Time Complexity=O(V+E)
+Space complexity=O(V) 
 # Number of connected components
 
 https://cses.fi/paste/ba4286c414fbddb14df5d8/
@@ -89,6 +91,7 @@ while (!q.empty()) {
 
 
 ```
+Time Complexity=O(V+E)
 # Shortest Path using bfs
 
 ```cpp
