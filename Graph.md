@@ -193,7 +193,8 @@ vector<int> bellman_ford(int V, vector<vector<int>>& edges, int S) {
 		return dist;
 	}
 ```
-Time Complexity:(V)
+Time Complexity:O(V*E)
+Space Complexity:O(V)
 
 # Floyd Warshall Algorithm
 
