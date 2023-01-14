@@ -53,6 +53,7 @@ void main(){
   
 ```
 Time Complexity=O(V+E)
+
 Space complexity=O(V) 
 # Number of connected components
 
@@ -160,7 +161,9 @@ vector<int> dijkstra(int V, vector<vector<int>> adj[], int S){//adjacency list c
     
 ```
 Time Complexity:O(Elog(V))
+
 Memory:O(E+V)
+
 Dijkstra's algorithm does not work for negative weights. 
 # Bellman Ford algorithm for shortest path
 Doesn't work if graph contains negative cycles.
@@ -194,6 +197,7 @@ vector<int> bellman_ford(int V, vector<vector<int>>& edges, int S) {
 	}
 ```
 Time Complexity:O(V*E)
+
 Space Complexity:O(V)
 
 # Floyd Warshall Algorithm
