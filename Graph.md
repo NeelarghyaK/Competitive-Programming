@@ -54,18 +54,20 @@ void main(){
 ```
 Time Complexity=O(V+E)
 
-Space complexity=O(V) <br>
+Space complexity=O(V) 
+<br><br>
 **Number of connected components**
-<br>
+<br><br>
 https://cses.fi/paste/ba4286c414fbddb14df5d8/
-<br>
+<br><br>
 **Checking cyclicity of graph**<br>
+
 If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
 CSES:Round trip
-https://ideone.com/eH95Cc<br>
+https://ideone.com/eH95Cc
+<br><br>
 **BFS on a graph**
 ```cpp
-
 
 int n; // number of nodes
 int root; // root vertex
@@ -92,9 +94,9 @@ while (!q.empty()) {
 
 
 ```
-Time Complexity=O(V+E)<br>
+Time Complexity=O(V+E)
+<br><br>
 **Shortest Path using bfs**
-
 ```cpp
 if (!visited[u]) {
     cout << "No path!";
@@ -164,8 +166,10 @@ Time Complexity:O(Elog(V))
 
 Memory:O(E+V)
 
-Dijkstra's algorithm does not work for negative weights. <br>
-**Bellman Ford algorithm for shortest path**<br>
+Dijkstra's algorithm does not work for negative weights. 
+<br><br>
+**Bellman Ford algorithm for shortest path**
+<br><br>
 Doesn't work if graph contains negative cycles.
 Works with negative weights unlike Dijkstra.
 ```cpp
