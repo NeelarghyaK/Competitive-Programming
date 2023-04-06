@@ -31,7 +31,7 @@ void dfs(int u=1,int p=-1){
 }
 
 ```
-**DFS using adjacency list for graph
+**DFS using adjacency list for graph**
 ```cpp
  vector<vector<int>> adj;
  int n;
@@ -55,15 +55,15 @@ void main(){
 Time Complexity=O(V+E)
 
 Space complexity=O(V) 
-# Number of connected components
+**Number of connected components**
 
 https://cses.fi/paste/ba4286c414fbddb14df5d8/
 
-# Checking cyclicity of graph
+**Checking cyclicity of graph**
 If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
 CSES:Round trip
 https://ideone.com/eH95Cc
-# BFS on a graph
+**BFS on a graph**
 ```cpp
 
 
@@ -93,7 +93,7 @@ while (!q.empty()) {
 
 ```
 Time Complexity=O(V+E)
-# Shortest Path using bfs
+**Shortest Path using bfs**
 
 ```cpp
 if (!visited[u]) {
@@ -109,7 +109,7 @@ if (!visited[u]) {
 }
 
 ```
-# Topological Sorting (just use dfs and insert values in ans from leaves to root)
+**Topological Sorting (just use dfs and insert values in ans from leaves to root)**
 ```cpp
 int n; // number of vertices
 vector<vector<int>> adj; // adjacency list of graph
@@ -135,7 +135,7 @@ void topological_sort() {
     reverse(ans.begin(), ans.end());
 }
 ```
-# Dijkstra algorithm for shortest path using priority queue
+**Dijkstra algorithm for shortest path using priority queue**
 ```cpp
 
 vector<int> dijkstra(int V, vector<vector<int>> adj[], int S){//adjacency list contains the vertices that are connected along with the weight
@@ -165,7 +165,7 @@ Time Complexity:O(Elog(V))
 Memory:O(E+V)
 
 Dijkstra's algorithm does not work for negative weights. 
-# Bellman Ford algorithm for shortest path
+**Bellman Ford algorithm for shortest path**
 Doesn't work if graph contains negative cycles.
 Works with negative weights unlike Dijkstra.
 ```cpp
@@ -200,7 +200,7 @@ Time Complexity:O(V*E)
 
 Space Complexity:O(V)
 
-# Floyd Warshall Algorithm
+**Floyd Warshall Algorithm**
 
 
     
