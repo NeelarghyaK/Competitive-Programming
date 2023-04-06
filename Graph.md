@@ -18,7 +18,7 @@ void traversal(Tree *tree){
 }
 
 ```
-# DFS using adjacency list for tree
+**DFS using adjacency list for tree**
 
 ```cpp
 void dfs(int u=1,int p=-1){
@@ -31,7 +31,7 @@ void dfs(int u=1,int p=-1){
 }
 
 ```
-# DFS using adjacency list for graph
+**DFS using adjacency list for graph
 ```cpp
  vector<vector<int>> adj;
  int n;
