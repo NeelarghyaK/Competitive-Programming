@@ -1,1 +1,3 @@
-
+There are **9 cards, each uniquely numbered from 1 to 9**. Alice and Bob plays a game where the pick a card in each turn till they have **3** cards. Alice picks a card first.<br>
+Their goal is to achieve a sum of **15 in the 3 cards they have picked**. If Alice is able to pick 3 cards such that the sum of the 3 card is 15, then Alice wins. If Alice fails to do so and Bob achieves a sum of 15 in the 3 cards he have picked then Bob wins. If both of them fails, then it is a draw. Assuming they are highly intelligent people, who is going to win? <br><br>
+**[The problem is a fairly simple one, but does it look familiar....? Where have you seen this before?]**
