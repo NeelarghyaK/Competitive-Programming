@@ -6,7 +6,8 @@ July 14, July 16
 August 14, August 15, August 17**
 **Cheryl** then tells **Albert** and **Bernard** separately the **month** and the **day** of her birthday respectively.
 
-**Albert**: I don't know when Cheryl's birthday is, but I know that Bernard doesn't know too. [sic]
-**Bernard**: At first I don't [sic] know when Cheryl's birthday is, but I know now.
+**Albert**: I don't know when Cheryl's birthday is, but I know that Bernard doesn't know too.
+**Bernard**: At first I did not know when Cheryl's birthday is, but I know now.
 **Albert**: Then I also know when Cheryl's birthday is.
 **So when is Cheryl's birthday?**
+
