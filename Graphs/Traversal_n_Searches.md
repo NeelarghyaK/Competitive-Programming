@@ -15,9 +15,9 @@ void traversal(Tree *tree){
   if(tree==NULL) return;
   //use tree-> for Pre-order traversal (current-left-right)
   traversal(tree->left);
-  //use tree-> for Post-order traversal (left-current-right)
-  traversal(tree->right);
   //use tree-> for In-order traversal (left-right-current)
+  traversal(tree->right);
+  //use tree-> for Post-order traversal (left-current-right)
 }
 
 ```
