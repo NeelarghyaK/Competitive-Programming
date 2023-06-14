@@ -18,26 +18,28 @@ if (!visited[u]) {
 **Dijkstra algorithm for shortest path using priority queue**
 ```cpp
 
-vector<int> dijkstra(int V, vector<vector<int>> adj[], int S){//adjacency list contains the vertices that are connected along with the weight
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        vector<int> distTo(V, INT_MAX);// set every distance to infinity
-        distTo[S] = 0;
-        pq.push({0, S});
-        while (!pq.empty()){
-            int node = pq.top().second;
-            int dis = pq.top().first;
-            pq.pop();
-            for (auto it : adj[node]){
-                int v = it[0];
-                int w = it[1];
-                if (dis + w < distTo[v]){
-                    distTo[v] = dis + w;
-                    pq.push({dis + w, v});
-                }
+vector<ll> par(100005, 1);
+vector<ll> dijkstra(ll V, vector<vector<pair<ll,ll>>> adj, ll S){//adjacency list contains the vertices that are connected along with the weight
+    priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<pair<ll, ll>>> pq;
+    vector<ll> distTo(V, 1e18);// set every distance to infinity
+    distTo[S] = 0;
+    pq.push({0, S});
+    while (!pq.empty()){
+        ll node = pq.top().second;
+        ll dis = pq.top().first;
+        pq.pop();
+        for (auto it : adj[node]){
+            ll v = it.first;
+            ll w = it.second;
+            if (dis + w < distTo[v]){
+                par[v]=node;
+                distTo[v] = dis + w;
+                pq.push({dis + w, v});
             }
         }
-        return distTo;
     }
+    return distTo;
+}
     
 ```
 Time Complexity:O(Elog(V))
