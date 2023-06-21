@@ -1,3 +1,4 @@
+```cpp
 
 #include <vector>
 #include <algorithm>
@@ -67,16 +68,10 @@ int main() {
     ll t;  cin >> t;
     while (t--) {
         ll n, m; cin>> n>> m;
-        vector<pair<ll,ll>> v(n);
-        pair<ll,ll> p1, p2;
-        ll x,y; 
-        for(int i=0;i<n;i++){
-            cin>> v[i].first>> v[i].second;
-            if(v[i].first> v[x].first) 
-        }
 
 
 
     }
     return 0;
 }
+```
