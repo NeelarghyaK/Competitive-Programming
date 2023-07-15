@@ -5,9 +5,10 @@
 ```
 ```cpp
 using namespace __gnu_pbds;
-typedef tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;// declaration
+typedef tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;// declaration // comparator can be greater, less, greater_equal...
 ```
 **Declare pbds in this way:**    pbds A;
+
 **Functions that can be used:**
 
 A.insert(x);
