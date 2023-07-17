@@ -23,4 +23,20 @@ Finding number of element smaller than k: A.order_of_key(k);
 
 Lower bound/Upper bound: *A.lower_bound(k);
 
+
+To store duplicates: use less_equal as comparator... and use the following functions...
+``` cpp
+bool Exist(pbds &s, int x)
+{
+    if((s.upper_bound(x))==s.end()) return 0;
+    return ((*s.upper_bound(x))==x);
+ 
+}
+ 
+void Erase(pbds &s, int x)
+{
+    if(Exist(s,x)) s.erase(s.upper_bound(x));
+}
+```
+
 Source: https://youtu.be/IWyIwLFucU4
