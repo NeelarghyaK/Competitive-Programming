@@ -28,6 +28,7 @@ vector<ll> dijkstra(ll V, vector<vector<pair<ll,ll>>> adj, ll S){//adjacency lis
         ll node = pq.top().second;
         ll dis = pq.top().first;
         pq.pop();
+	if(distTo[node] < dis) continue;
         for (auto it : adj[node]){
             ll v = it.first;
             ll w = it.second;
