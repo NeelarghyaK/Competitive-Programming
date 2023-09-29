@@ -63,6 +63,10 @@ Space complexity=O(V)
 <br><br>
 https://cses.fi/paste/ba4286c414fbddb14df5d8/
 <br><br>
+**Strongly connected component**
+Problem: https://codeforces.com/contest/427/problem/C
+Submission: https://codeforces.com/contest/427/submission/225806261
+
 **Checking cyclicity of graph**<br>
 
 If we find a node that is already visited but it is not the parent of the current node, then there is a cycle.
