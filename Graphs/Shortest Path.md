@@ -96,4 +96,6 @@ for (int k = 0; k < n; ++k) {
         }
     }
 }
+
 ```
+Time complexity=O(n^3)
