@@ -1,6 +1,9 @@
 Problem link: https://codeforces.com/contest/1766/submission/236803250
+
 This sieve finds out the least prime factor for all i from 2 to N
+
 O(N(log(logN)))
+
 ```cpp
 
 const int N=1e7+1;
