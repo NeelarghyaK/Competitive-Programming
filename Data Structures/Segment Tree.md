@@ -1,4 +1,5 @@
 Submission Link: https://codeforces.com/contest/380/submission/237276013
+Standard sum problem : https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/submission/245027097
 ```cpp
 /* 1-based segment tree template */
  
