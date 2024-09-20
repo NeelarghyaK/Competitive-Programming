@@ -1,0 +1,15 @@
+**Binary Search Trees** - A binary tree where each node has at most two children, and for every node, all values in the left subtree are smaller, and all values in the right subtree are larger. In the worst case, an unbalanced BST can become a linked list with O(n) time complexity for search, insert, and delete.
+
+**Self-Balancing Binary Trees:**
+
+These trees maintain a balanced structure to ensure O(log n) time complexity for search, insert, and delete operations.
+
+**-> Red-Black Tree**
+_Description:_ A self-balancing BST where each node has an additional "color" (red or black). The tree uses a set of balancing rules involving these colors to ensure that the longest path from root to leaf is at most twice as long as the shortest.
+
+_Properties:_
+No two consecutive red nodes.
+The root and leaves (null nodes) are black.
+Red-Black Trees have O(log n) height.
+Every simple path from a node to a descendant leaf contains the same number of black nodes.
+_Use:_ Typically used in C++ STL (std::set, std::map) and Java's TreeMap
