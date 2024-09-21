@@ -1,4 +1,6 @@
 **Binary Search Trees** - A binary tree where each node has at most two children, and for every node, all values in the left subtree are smaller, and all values in the right subtree are larger. In the worst case, an unbalanced BST can become a linked list with O(n) time complexity for search, insert, and delete.
+![image](https://github.com/user-attachments/assets/372bbce4-2681-4935-bc64-c6ae7bbbdceb)
+
 
 **Self-Balancing Binary Trees:**
 
