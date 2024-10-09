@@ -1,6 +1,8 @@
 https://youtu.be/oib-XsjFa-M?si=a-BKxVKtZAKXuRb6
+
 https://youtu.be/dOAxrhAUIhA?si=ibvBJEJzm7PFDU2c
-**Code for finding distance between two nodes in a tree**
+
+**Code for finding the distance between two nodes in a tree**
 ```cpp
 #include <bits/stdc++.h>
 #include <cstdio>
